@@ -4,6 +4,8 @@ description: "ML CVEs catalogs AI/ML incidents and vulnerabilities — dated, so
 pubDate: 2026-05-03
 tags: ["meta"]
 category: "site"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/mlcves.com/welcome.png
+heroAlt: "What this site is for"
 ---
 
 ML CVEs is a tracker. We catalog AI/ML incidents and vulnerabilities so practitioners and analysts have a single place to check what's happened, when, and where to read more.
