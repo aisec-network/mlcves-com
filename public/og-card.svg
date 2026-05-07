@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e11d48" stop-opacity="0" />
+      <stop offset="1" stop-color="#e11d48" stop-opacity="0.18" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#fff1f2" />
+  <rect x="80" y="540" width="120" height="6" fill="#e11d48" />
+  
+  <g transform="translate(80, 200)">
+    <text font-family="IBM Plex Sans, system-ui, sans-serif" font-size="78" font-weight="700" fill="#1c1917" letter-spacing="-2">
+      ML CVEs
+    </text>
+    <text y="120" font-family="IBM Plex Mono, system-ui, sans-serif" font-size="32" fill="#9f1239" letter-spacing="0">
+      Every CVE that touches ML frameworks. Tracked.
+    </text>
+    <text y="280" font-family="IBM Plex Mono, monospace" font-size="22" fill="#e11d48" letter-spacing="2" text-transform="uppercase">
+      mlcves.com
+    </text>
+  </g>
+</svg>
