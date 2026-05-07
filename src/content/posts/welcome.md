@@ -1,6 +1,6 @@
 ---
 title: "What this site is for"
-author: "Daniel Park"
+author: "Marcus Reyes"
 description: "ML CVEs catalogs AI/ML incidents and vulnerabilities — dated, sourced, verifiable."
 pubDate: 2026-05-03
 tags: ["meta"]
