@@ -1,24 +1,35 @@
-/* Brand for mlcves-com: cluster=offensive, variant=v7_bold_caps_zine */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+/* Brand for mlcves-com: identity=f12_serif_playfair_sourcesans+p25_h214_warm+kiosk+v10_almanac */
 
-body[data-cluster='offensive'] {
-  --bg: 255 241 242;
-  --fg: 28 25 23;
-  --surface: 255 228 230;
-  --muted: 255 241 242;
-  --muted-fg: 159 18 57;
-  --border: 159 18 57;
-  --font-display: "IBM Plex Sans", system-ui, sans-serif;
-  --font-body: "IBM Plex Mono", system-ui, sans-serif;
-  --accent-400: 225 29 72;
-  --accent-500: 225 29 72;
-  --accent-600: 225 29 72;
-  --accent-700: 225 29 72;
-  --brand-tone: "cve-red-alert";
-  --brand-accent-rgb: 225 29 72;
-  --brand-variant: "v7_bold_caps_zine";
+body[data-cluster] {
+  --bg: 255 253 250;
+  --fg: 38 30 18;
+  --muted: 253 250 242;
+  --muted-fg: 120 100 72;
+  --border: 232 222 200;
+  --surface: 255 253 250;
+  --surface-alt: 253 250 242;
+  --font-display: "Playfair Display", "Times New Roman", Georgia, serif;
+  --font-body: "Source Sans 3", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --brand-accent-rgb: 22 109 223;
+  --brand-identity-font: "f12_serif_playfair_sourcesans";
+  --brand-identity-palette: "p25_h214_warm";
+  --brand-identity-layout: "kiosk";
+  --brand-identity-voice: "v10_almanac";
 }
-html.dark body[data-cluster='offensive'] {
-  --bg: 255 241 242; --fg: 28 25 23; --surface: 255 228 230;
-  --accent-500: 225 29 72; --accent-600: 225 29 72;
+
+html.dark body[data-cluster] {
+  --bg: 22 18 12;
+  --fg: 248 242 228;
+  --muted: 34 28 20;
+  --muted-fg: 180 168 140;
+  --border: 60 50 36;
+  --surface: 22 18 12;
+  --surface-alt: 34 28 20;
+  --brand-accent-rgb: 95 158 242;
 }
+
+/* Density modifiers */
+body.density-loose  { --space-section: 5rem; }
+body.density-normal { --space-section: 3rem; }
+body.density-dense  { --space-section: 1.5rem; }
