@@ -1,0 +1,17 @@
+# ML CVEs
+
+> A focused tracker for CVEs in ML and AI infrastructure. PyTorch, TensorFlow, ONNX, vLLM, llama.cpp, transformers, langchain, LlamaIndex, model registries, and the broader AI/ML supply chain — dated, sourced to NVD or vendor advisory.
+
+## Docs
+
+- [About](https://mlcves.com/about): Editorial scope, coverage standards, and contributor guidelines.
+- [Archive](https://mlcves.com/posts): Full archive of all CVE entries and analyses.
+- [RSS Feed](https://mlcves.com/rss.xml): Subscribe to new entries via RSS.
+- [Sitemap](https://mlcves.com/sitemap-index.xml): Full site sitemap for crawlers.
+
+## Topics
+
+- [ML CVEs](https://mlcves.com/posts): CVEs in PyTorch, TensorFlow, ONNX, vLLM, llama.cpp, transformers.
+- [Supply Chain Vulnerabilities](https://mlcves.com/posts): AI/ML dependency and registry vulnerabilities.
+- [Model Security](https://mlcves.com/posts): Model leaks, training data exposures, and adversarial disclosures.
+- [Regulatory Actions](https://mlcves.com/posts): Regulatory enforcement actions against AI companies.
